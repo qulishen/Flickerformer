@@ -4,7 +4,7 @@
 
 # ✨ It Takes Two: A Duet of Periodicity and Directionality for Burst Flicker Removal
 
-[![Conference](https://img.shields.io/badge/CVPR-2026-red)](#citation) [![Task](https://img.shields.io/badge/Task-Burst%20Flicker%20Removal-blue)](#introduction)
+[![Conference](https://img.shields.io/badge/CVPR-2026-red)](#citation) [![Task](https://img.shields.io/badge/Task-Burst%20Flicker%20Removal-blue)](#introduction) [![Project](https://img.shields.io/badge/Project-Page-purple)](https://qulishen.github.io/project/Flickerformer.html)
 
 <!-- [![Architecture](https://img.shields.io/badge/Backbone-Transformer-orange)](#flickerformer-architecture)
 [![Dataset](https://img.shields.io/badge/Dataset-BurstDeflicker-green)](https://www.kaggle.com/datasets/lishenqu/burstflicker) -->
