@@ -1,6 +1,6 @@
 <div align="center">
 
-![Motivation](images/logo.png)
+<img src="images/logo1.png" alt="Flickerformer Logo" width="50%" />
 
 # It Takes Two: A Duet of Periodicity and Directionality for Burst Flicker Removal
 
