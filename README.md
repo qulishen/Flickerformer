@@ -2,7 +2,7 @@
 
 <img src="images/logo1.png" alt="Flickerformer Logo" width="50%" />
 
-# It Takes Two: A Duet of Periodicity and Directionality for Burst Flicker Removal
+# ✨ It Takes Two: A Duet of Periodicity and Directionality for Burst Flicker Removal
 
 [![Conference](https://img.shields.io/badge/CVPR-2026-red)](#citation) [![Task](https://img.shields.io/badge/Task-Burst%20Flicker%20Removal-blue)](#introduction)
 
@@ -11,11 +11,11 @@
 
 </div>
 
-## Overview
+## 🧭 Overview
 
 Quick links: [Motivation](#motivation) | [Architecture](#flickerformer-architecture) | [Results](#qualitative-results) | [Training](#training) | [Citation](#citation)
 
-## Introduction
+## 📖 Introduction
 
 Flicker artifacts are caused by unstable illumination and row-wise exposure under the rolling-shutter mechanism, leading to structured spatial-temporal degradation.
 Unlike common degradations such as noise or low-light, flicker exhibits two intrinsic properties: **periodicity** and **directionality**.  
