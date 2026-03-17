@@ -2,75 +2,7 @@ import torch
 import torchvision
 from PIL import Image
 
-from basicsr.archs.Burstormer_arch import Burstormer
-from basicsr.archs.HDRTransformer_arch import HDRTransformer
-from basicsr.archs.HINT_arch import HINT
-from basicsr.archs.Restormer_arch import Restormer
-from basicsr.archs.Restormer_vis_arch import Restormer_vis
-from basicsr.archs.AFUNet_arch import AFUNet
-from basicsr.archs.SAFNet_arch import SAFNet
-from basicsr.archs.SCTNet_arch import SCTNet
-from basicsr.archs.DarkIR_arch import DarkIR
-from basicsr.archs.oppo_arch import OPPO
-from basicsr.archs.flickerformer_arch import FlickerNet
-from basicsr.archs.SAFNet_version3_arch import SAFNet_3
-from basicsr.archs.SAFNet_version2_arch import SAFNet_2
-from basicsr.archs.SAFNet_version4_arch import SAFNet_4
-from basicsr.archs.SAFNet_version5_arch import SAFNet_5
-from basicsr.archs.SAFNet_version4_vis_arch import SAFNet_4_vis
-from basicsr.archs.SAFNet_version5_vis_arch import SAFNet_5_vis
-from basicsr.archs.SAFNet_version6_vis_arch import SAFNet_6_vis
-from basicsr.archs.FFT_Retinexformer_arch import FFT_Retinexformer
-from basicsr.archs.SAFNet_version6_arch import SAFNet_6
-from basicsr.archs.SAFNet_version7_arch import SAFNet_7
-from basicsr.archs.SAFNet_version8_arch import SAFNet_8
-from basicsr.archs.SAFNet_version9_arch import SAFNet_9
-from basicsr.archs.SAFNet_version4_fft_arch import SAFNet_4_FFT
-from basicsr.archs.SAFNet_version4_channel_att_arch import SAFNet_4_channel_att
-from basicsr.archs.Flickerformer_arch import Uformer_Cross
-# from basicsr.archs.Flickerformer_SCAM_arch import Flickerformer_SCAM
-from basicsr.archs.Flickerformer_SCAM2_arch import Flickerformer_SCAM2
-from basicsr.archs.Flickerformer_SCAM3_arch import Flickerformer_SCAM3
-from basicsr.archs.Flickerformer_SCAM4_arch import Flickerformer_SCAM4
-from basicsr.archs.Flickerformer_SCAM5_arch import Flickerformer_SCAM5
-from basicsr.archs.Flickerformer_SCAM6_arch import Flickerformer_SCAM6
-from basicsr.archs.Flickerformer_SCAM7_arch import Flickerformer_SCAM7
-from basicsr.archs.Flickerformer_SCAM8_arch import Flickerformer_SCAM8
-from basicsr.archs.Flickerformer_SCAM9_arch import Flickerformer_SCAM9
-from basicsr.archs.Flickerformer_SCAM10_arch import Flickerformer_SCAM10
-from basicsr.archs.Flickerformer_SCAM11_arch import Flickerformer_SCAM11
-from basicsr.archs.Flickerformer_SCAM12_arch import Flickerformer_SCAM12
-from basicsr.archs.Flickerformer_SCAM13_arch import Flickerformer_SCAM13
-from basicsr.archs.Flickerformer_SCAM14_arch import Flickerformer_SCAM14
-from basicsr.archs.Flickerformer_SCAM14_vis_arch import Flickerformer_SCAM14_vis
-from basicsr.archs.Flickerformer_SCAM15_arch import Flickerformer_SCAM15
-# from basicsr.archs.Flickerformer_SCAM16_arch import Flickerformer_SCAM16
-from basicsr.archs.Flickerformer_SCAM16_light_arch import Flickerformer_light_SCAM16
-from basicsr.archs.Flickerformer_SCAM16_light_phase_arch import Flickerformer_light_phase_SCAM16
-from basicsr.archs.Flickerformer_SCAM16_vis_arch import Flickerformer_SCAM16_vis
-from basicsr.archs.Flickerformer_SCAM17_arch import Flickerformer_SCAM17
-from basicsr.archs.Flickerformer_SCAM18_arch import Flickerformer_SCAM18
-from basicsr.archs.Flickerformer_SCAM19_arch import Flickerformer_SCAM19
-from basicsr.archs.Flickerformer_SCAM20_arch import Flickerformer_SCAM20
-from basicsr.archs.Flickerformer_SCAM21_arch import Flickerformer_SCAM21
-from basicsr.archs.Flickerformer_SCAM22_arch import Flickerformer_SCAM22
-from basicsr.archs.Flickerformer_SCAM23_arch import Flickerformer_SCAM23
-from basicsr.archs.Flickerformer_SCAM24_arch import Flickerformer_SCAM24
-from basicsr.archs.Flickerformer_SCAM25_arch import Flickerformer_SCAM25
-from basicsr.archs.Flickerformer_SCAM25_vis_arch import Flickerformer_SCAM25_vis
-from basicsr.archs.Flickerformer_SCAM26_arch import Flickerformer_SCAM26
-from basicsr.archs.Flickerformer_SCAM27_arch import Flickerformer_SCAM27
-from basicsr.archs.Flickerformer_SCAM28_arch import Flickerformer_SCAM28
-from basicsr.archs.Flickerformer_SCAM29_arch import Flickerformer_SCAM29
-from basicsr.archs.Flickerformer_SCAM30_arch import Flickerformer_SCAM30
-from basicsr.archs.Flickerformer_SCAM31_arch import Flickerformer_SCAM31
-from basicsr.archs.Flickerformer_SCAM34_arch import Flickerformer_SCAM34
-from basicsr.archs.Flickerformer_SCAM35_arch import Flickerformer_SCAM35
-from basicsr.archs.Flickerformer_SCAM36_arch import Flickerformer_SCAM36
-from basicsr.archs.Flickerformer_SCAM37_arch import Flickerformer_SCAM37
-from basicsr.archs.Flickerformer_SCAM38_arch import Flickerformer_SCAM38
-from basicsr.archs.Flickerformer_SCAM39_arch import Flickerformer_SCAM39
-from basicsr.archs.Flickerformer_SCAM41_arch import Flickerformer_SCAM41
+from archs.Flickerformer_arch import Flickerformer
 import argparse
 import torchvision.transforms as transforms
 import os
@@ -82,7 +14,7 @@ parser.add_argument(
     "--model_path", type=str, default="/home/notebook/data/personal/S9059954/BurstDeflicker/weights/"
 )
 parser.add_argument(
-    "--model_type", type=str, default="Restormer_vis"
+    "--model_type", type=str, default="Flickerformer"
 )
 
 args = parser.parse_args()
