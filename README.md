@@ -121,7 +121,7 @@ If you find this project useful, please cite:
 ```bibtex
 @inproceedings{qu2026flickerformer,
   title={It Takes Two: A Duet of Periodicity and Directionality for Burst Flicker Removal},
-  author={Qu, Lishen and Zhou, Shihao and Liang, Jie and Zeng, Hui and Zhang, Lei and Yang, Jufeng},
+  author={Lishen, Qu and Shihao, Zhou and Jie, Liang and Hui, Zeng and Lei, Zhang and Jufeng, Yang},
   booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
   year={2026}
 }
