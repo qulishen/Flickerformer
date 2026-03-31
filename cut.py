@@ -55,6 +55,9 @@ def build_frame_indices(total_frames: int, num_frames: int, first_only: bool):
     if total_frames <= 0:
         return []
 
+    if num_frames == 1:
+        return [0]
+
     if first_only:
         return list(range(min(total_frames, num_frames)))
 
