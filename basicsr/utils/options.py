@@ -17,9 +17,9 @@ def ordered_yaml():
     """
     try:
         from yaml import CDumper as Dumper
-        from yaml import CLoader as Loader
+        from yaml import CSafeLoader as Loader
     except ImportError:
-        from yaml import Dumper, Loader
+        from yaml import Dumper, SafeLoader as Loader
 
     _mapping_tag = yaml.resolver.BaseResolver.DEFAULT_MAPPING_TAG
 
